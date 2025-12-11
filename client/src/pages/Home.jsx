@@ -10,8 +10,11 @@ export default function Home(){
   return (
     <div style={{padding:20}}>
       <h1>Featured Houses</h1>
-    // Temporally fix
-    {/* Temporally fix */}
+
+      <h1 className="text-4xl text-red-500">Hello Tailwind</h1>
+      <h1 className="text-5xl text-blue-600 font-bold">TAILWIND TEST</h1>
+
+
       <ul>
         <li><Link to="/login">Go to Login</Link></li>
         <li><Link to="/add">Add House</Link></li>

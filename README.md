@@ -1,7 +1,7 @@
 
 ```
 Sakeja
-├─ .env
+├─ .dockerignore
 ├─ client
 │  ├─ Dockerfile
 │  ├─ eslint.config.js
@@ -26,6 +26,9 @@ Sakeja
 │  │     └─ Login.jsx
 │  └─ vite.config.js
 ├─ docker-compose.yml
+├─ package-lock.json
+├─ package.json
+├─ README.md
 └─ server
    ├─ Dockerfile
    ├─ package-lock.json
