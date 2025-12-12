@@ -1,14 +1,12 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import AddHouse from './pages/AddHouse';
-import HouseDetails from './pages/HouseDetails';
-import './index.css';
+import { createRoot } from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+import AddHouse from "./pages/AddHouse"
+import HouseDetails from "./pages/HouseDetails"
+import "./index.css"
 
-
-function App(){
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +16,7 @@ function App(){
         <Route path="/houses/:id" element={<HouseDetails />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-createRoot(document.getElementById('root')).render(<App/>);
+createRoot(document.getElementById("root")).render(<App />)
